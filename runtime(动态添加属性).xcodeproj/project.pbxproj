@@ -15,6 +15,9 @@
 		CA5DCC0821EC8FE1006A0F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5DCC0721EC8FE1006A0F1F /* main.m */; };
 		CA5DCC1221EC8FE1006A0F1F /* runtime________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5DCC1121EC8FE1006A0F1F /* runtime________Tests.m */; };
 		CA5DCC1D21EC8FE1006A0F1F /* runtime________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5DCC1C21EC8FE1006A0F1F /* runtime________UITests.m */; };
+		CA5DCC2C21EC9002006A0F1F /* NSObject+Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5DCC2B21EC9002006A0F1F /* NSObject+Objc.m */; };
+		CA5DCC2F21EC94FD006A0F1F /* WSSwizzlingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5DCC2E21EC94FC006A0F1F /* WSSwizzlingMethod.m */; };
+		CA5DCC3221EC951F006A0F1F /* UIView+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5DCC3121EC951E006A0F1F /* UIView+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CA5DCC1821EC8FE1006A0F1F /* runtime(动态添加属性)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime(动态添加属性)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5DCC1C21EC8FE1006A0F1F /* runtime________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime________UITests.m"; sourceTree = "<group>"; };
 		CA5DCC1E21EC8FE1006A0F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5DCC2A21EC9002006A0F1F /* NSObject+Objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Objc.h"; sourceTree = "<group>"; };
+		CA5DCC2B21EC9002006A0F1F /* NSObject+Objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Objc.m"; sourceTree = "<group>"; };
+		CA5DCC2D21EC94FC006A0F1F /* WSSwizzlingMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSwizzlingMethod.h; sourceTree = "<group>"; };
+		CA5DCC2E21EC94FC006A0F1F /* WSSwizzlingMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSwizzlingMethod.m; sourceTree = "<group>"; };
+		CA5DCC3021EC951E006A0F1F /* UIView+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Swizzling.h"; sourceTree = "<group>"; };
+		CA5DCC3121EC951E006A0F1F /* UIView+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				CA5DCC0321EC8FE1006A0F1F /* LaunchScreen.storyboard */,
 				CA5DCC0621EC8FE1006A0F1F /* Info.plist */,
 				CA5DCC0721EC8FE1006A0F1F /* main.m */,
+				CA5DCC2D21EC94FC006A0F1F /* WSSwizzlingMethod.h */,
+				CA5DCC2E21EC94FC006A0F1F /* WSSwizzlingMethod.m */,
+				CA5DCC3021EC951E006A0F1F /* UIView+Swizzling.h */,
+				CA5DCC3121EC951E006A0F1F /* UIView+Swizzling.m */,
+				CA5DCC2A21EC9002006A0F1F /* NSObject+Objc.h */,
+				CA5DCC2B21EC9002006A0F1F /* NSObject+Objc.m */,
 			);
 			path = "runtime(动态添加属性)";
 			sourceTree = "<group>";
@@ -263,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5DCBFD21EC8FE0006A0F1F /* ViewController.m in Sources */,
+				CA5DCC2F21EC94FD006A0F1F /* WSSwizzlingMethod.m in Sources */,
+				CA5DCC3221EC951F006A0F1F /* UIView+Swizzling.m in Sources */,
 				CA5DCC0821EC8FE1006A0F1F /* main.m in Sources */,
 				CA5DCBFA21EC8FE0006A0F1F /* AppDelegate.m in Sources */,
+				CA5DCC2C21EC9002006A0F1F /* NSObject+Objc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
