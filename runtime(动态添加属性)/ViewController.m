@@ -24,6 +24,8 @@
     objc.name = @"动态添加属性";
     NSLog(@"%@",objc.name);
     
+    NSLog(@"%@",objc.name);
+
     [self getiOSPrivateAPi];
 }
 
